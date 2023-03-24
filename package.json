@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/ddrempe/react-components-library/issues"
   },
-  "homepage": "https://github.com/ddrempe/react-components-library#readme"
+  "homepage": "https://github.com/ddrempe/react-components-library#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0",
+    "typescript": "^5.0.2"
+  }
 }
