@@ -8,6 +8,13 @@ import packageJson from "./package.json" assert { type: "json" };
 export default [
   {
     input: "src/index.ts",
+    external: [
+      "@emotion/react",
+      "@emotion/styled",
+      "@mui/material",
+      "@types/react",
+      "react-dom",
+    ],
     output: [
       {
         file: packageJson.main,
